@@ -1,0 +1,16 @@
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  width: 100%;
+  max-width: 200px;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+}
+
+form .focusedBtn {
+  border: 1px solid black;
+}
