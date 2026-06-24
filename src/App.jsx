@@ -12,12 +12,12 @@ function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />}></Route>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/appointments" element={<Appointments />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/admin-dashboard" element={<AdminDashboard />}></Route>
-        <Route path="/success" element={<Success />}></Route>
+        <Route path="home" element={<Home />}></Route>
+        <Route path="appointments" element={<Appointments />}></Route>
+        <Route path="about" element={<About />}></Route>
+        <Route path="contact" element={<Contact />}></Route>
+        <Route path="admin-dashboard" element={<AdminDashboard />}></Route>
+        <Route path="success" element={<Success />}></Route>
       </Route>
     </Routes>
   );
