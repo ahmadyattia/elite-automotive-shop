@@ -10,7 +10,10 @@ import Success from "./pages/Success";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainLayout />}>
+      <Route
+        path="https://elite-automotive-shop.vercel.app/"
+        element={<MainLayout />}
+      >
         <Route index element={<Home />}></Route>
         <Route path="home" element={<Home />}></Route>
         <Route path="appointments" element={<Appointments />}></Route>
