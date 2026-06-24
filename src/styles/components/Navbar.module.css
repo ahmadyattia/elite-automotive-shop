@@ -1,0 +1,15 @@
+.navbarLst {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  list-style-type: none;
+  font-family: var(--primary-font);
+}
+
+.navbarLst a {
+  text-decoration: none;
+  border: 1px solid orange;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
